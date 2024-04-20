@@ -11,4 +11,5 @@ with open("even.txt", "w") as even_file:
         if num % 2 == 0:
             even_file.write(f"{num}\n")
 # open odd.txt file
+with open("odd.txt", "w") as odd_file:
 # write odd numbers to the file
