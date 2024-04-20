@@ -13,3 +13,6 @@ with open("even.txt", "w") as even_file:
 # open odd.txt file
 with open("odd.txt", "w") as odd_file:
 # write odd numbers to the file
+    for num in numbers:
+        if num % 2 != 0:
+            odd_file.write(f"{num}\n")
