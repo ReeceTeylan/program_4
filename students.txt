@@ -1,0 +1,22 @@
+{
+    "Sarah Geronimo": "2.4",
+    "Maja Salvador": "1.9",
+    "Nadine Lustre": "2.1",
+    "Anne Curtis": "2.3",
+    "Liza Soberano": "1.8",
+    "Julie Anne San Jose": "2.2",
+    "Christian Bautista": "2.7",
+    "Gary Valenciano": "2.6",
+    "Regine Velasquez": "1.7",
+    "Kathryn Bernardo": "1.5",
+    "Daniel Padilla": "2.9",
+    "Vice Ganda": "1.3",
+    "Alden Richards": "2.8",
+    "Angel Locsin": "1.1",
+    "Piolo Pascual": "1.6",
+    "Coco Martin": "2.5",
+    "Bea Alonzo": "2.0",
+    "Dingdong Dantes": "2.4",
+    "Vilma Santos": "1.4",
+    "Reece Teylan": "1.0"
+}
