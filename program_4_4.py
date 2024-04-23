@@ -7,4 +7,7 @@ with open("integers.txt", "r") as integer_file:
         line = int(line)
         if line % 2 == 0:
 # square all the even integers and place in double.txt
+            square_number = line ** 2
+            with open("double.txt", "a") as squared_file:
+                squared_file.write(str(square_number)+"\n")
 # cube all the odd integers and place in triple.txt
