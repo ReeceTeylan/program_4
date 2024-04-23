@@ -12,3 +12,11 @@ while proceed:
         while proceed:
             again = input("Are there more lines y/n? ")
 # finish the code
+            if again.lower() == "y":
+                break
+            elif again.lower() == "n":
+                print ("Thanks")
+                proceed = False
+            else:
+                print("Type y/n only!")
+                continue
