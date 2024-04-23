@@ -11,3 +11,7 @@ with open("integers.txt", "r") as integer_file:
             with open("double.txt", "a") as squared_file:
                 squared_file.write(str(square_number)+"\n")
 # cube all the odd integers and place in triple.txt
+        else:
+            cube_number = line ** 3
+            with open("triple.txt", "a") as cubed_file:
+                cubed_file.write(str(cube_number)+"\n")
