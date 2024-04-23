@@ -1,5 +1,6 @@
 #"output  the student with highest GWA from reading a file"
-
+import pyfiglet
+import time
 # read the file with student names and GWA
 def find_highest():
     with open("students.txt", "r") as student_file:
@@ -16,6 +17,9 @@ def find_highest():
         return highest_gwa_student, highest_gwa
 name, grade = find_highest()
 # output the name of the student with the highest GWA
-print (f"The student with the highest GWA is {name} who received {grade}")
+text = pyfiglet.figlet_format(f"The student with the highest GWA is {name} who received  {grade}")
+final_text = (f"\033[38;5;157m{text}\033[0m")
+for char in final_text:
+        print(char, end="", flush=True)
+        time.sleep(0.003)
 # add design to output
-
