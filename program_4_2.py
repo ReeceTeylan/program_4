@@ -16,5 +16,6 @@ def find_highest():
         return highest_gwa_student, highest_gwa
 name, grade = find_highest()
 # output the name of the student with the highest GWA
+print (f"The student with the highest GWA is {name} who received {grade}")
 # add design to output
 
