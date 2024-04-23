@@ -9,4 +9,6 @@ while proceed:
     with open("mylife.txt", "a") as life_file:
         life_file.write(break_line)
 # add a loop for more lines
+        while proceed:
+            again = input("Are there more lines y/n? ")
 # finish the code
